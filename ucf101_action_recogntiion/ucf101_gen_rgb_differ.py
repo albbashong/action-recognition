@@ -13,18 +13,9 @@ from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from torch.utils.data import dataset
 from PIL import Image
 import time
-#dir_path="E:\\data\\data\\ava\\frames\\_7oWZq_s_Sk\\"
-#0V4B3 writing
-#0SXRS clean the floor
-#reading a book and walking 6L2J7
 
-
-
-#00T1E bed room
-#dir_path="C:/Users/시각지능/Downloads/Charades_v1_rgb/Charades_v1_rgb/0SXRS/"
-#dir_path="C:/Users/시각지능/Downloads/새 폴더/"
-dir_path="D:/ucf101_jpegs_256/jpegs_256/"
-save_path="D:/ucf101_rgb2/"
+dir_path="./ucf101_jpegs_256/jpegs_256/"
+save_path="./ucf101_rgb2/"
 
 def get_concat_h(im1, im2):
     dst = Image.new('RGB', (im1.width + im2.width, im1.height))
