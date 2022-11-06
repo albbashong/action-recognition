@@ -149,7 +149,7 @@ def main(model_folder,
 
 if __name__ == '__main__':
 
-    model_folder = "G:/컴퓨터 백업/pythonProject/model"
+    model_folder = "./model"
     model_type = "smplx"
     plot_joints = True
     use_face_contour = False
