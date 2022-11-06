@@ -364,9 +364,9 @@ def val_data(model, dataloader,epoch):
 
 
 if __name__=="__main__":
-    dir_path="C:/Users/시각지능/Downloads/Charades_v1_rgb/Charades_v1_rgb/"
-    train_label_path="C:/Users/시각지능/Downloads/Charades/Charades_v1_train.csv"
-    val_label_path="C:/Users/시각지능/Downloads/Charades/Charades_v1_test.csv"
+    dir_path="./Charades_v1_rgb/Charades_v1_rgb/"
+    train_label_path="./Charades/Charades_v1_train.csv"
+    val_label_path="./Charades/Charades_v1_test.csv"
     epoch=50
     lr_rate=0.0001
     image_size=224
