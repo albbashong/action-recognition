@@ -1,5 +1,7 @@
-# action-recognition
-Charades Action recognition   
+# action-recognition   
+Using ViVit Model for action recognition
+
+# Charades Action recognition   
 --run   
 charades.py using your dir path
     
