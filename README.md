@@ -1,7 +1,10 @@
 # action-recognition
 Charades Action recognition
 --run 
-    charades.py using your dir path 
+    charades.py using your dir path
+    
+--utils
+    Using ViVit model to extract spatio-temporal information
     
     
 smplx
