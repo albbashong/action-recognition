@@ -1,4 +1,4 @@
-# action-recognition   
+# ction-recognition   
 #### Using Transformer Model for action recognition   
 
 ### Data    
