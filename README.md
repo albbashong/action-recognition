@@ -2,13 +2,26 @@
 Using ViVit Model for action recognition
 
 # Charades Action recognition   
---run   
-charades.py using your dir path
-    
+--training   
+charades_main.py --dirpath="/your path", --test_label_path="/your path", --train_label_path="/your path"   
+
+
+
+
+
 --utils   
-Using ViVit model to extract spatio-temporal information
+Using model to extract spatio-temporal information   
+
+Custom Clip model: Using Charades description   
+
+ViVit_with_differ: ViVit model with RGB difference   
+
+model: Concatenation model to output   
+
+Custom_Resnet3d: Image encoder to transformer model   
+
     
-    
+#Extras
 smplx   
   This project to study a pose 3d to apply action recognition
   
