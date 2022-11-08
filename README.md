@@ -21,9 +21,9 @@ model: Concatenation model to output
 Custom_Resnet3d: Image encoder to transformer model   
 
     
-#Extras
+# Extras   
 smplx   
-  This project to study a pose 3d to apply action recognition
+  This project to study a pose 3d to apply action recognition   
   
   
 ucf-101 action_recognition   
